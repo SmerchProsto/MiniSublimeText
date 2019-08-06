@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Sublime Text</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="js/dom.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/tabs.js"></script>
+</head>
+<body>
+<div id="main">
+    <div id="files"></div>
+    <div id="editor">
+        <div id="tabs"></div>
+        <div id="frames"></div>
+    </div>
+</div>
+<script>
+    Tabs.add_tab('js/tabs.js', 'hello')
+</script>
+</body>
+</html>

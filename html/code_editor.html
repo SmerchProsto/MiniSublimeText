@@ -12,6 +12,11 @@
 <textarea id="code_editor"></textarea>
 <script>
     var path = location.hash.toString().replace(/#/, '');
+
+    var SAVE = function () {
+        App.write_file(path, $('code_editor').value);
+    };
+
     (function () {
         if (!path) return;
         $('code_editor').value = App.read_file(path);

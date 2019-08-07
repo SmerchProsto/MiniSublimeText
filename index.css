@@ -53,6 +53,11 @@ textarea {
     cursor: pointer;
 }
 
+.tab_selected {
+    color: white;
+    background-color: #4b4b4b;
+}
+
 .tab .tab_close {
     margin-left: 2px;
 }
